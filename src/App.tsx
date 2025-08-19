@@ -85,7 +85,7 @@ function App() {
   
 
   function handleDragEnter() {
-    setDragCounter(prev => prev + 1);
+    setDragCounter(dragCounter + 1);
     setIsDragging(true);
   }
 
